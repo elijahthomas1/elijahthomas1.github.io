@@ -1,24 +1,30 @@
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 10;
+    
 }
 
 body {
-    margin: 0;
-    font-size: 1rem;
-    line-height: 1.8;
+    background-image: linear-gradient(dodgerBlue,slateblue);   
+    
 }
 
-section {
-    padding: 5em 2em;
+.intro{
+    width: 100%;
+    padding: 100px 0px;
+    display: flex;
+    
 }
 
-img {
-    display: block;
-    max-width: 100%;
+.intro-h2{
+    align-items: center;
+    font-size: 75px;
+    color: linear-gradient(yellow, red);
 }
-
-h1, h3, h3 {
-    margin: 0;
-    line-height: 1;
+.intro-img{
+    height: auto;
+    width: 500px;
+    margin-left: 30px;
+    align-items: center;
 }
-
