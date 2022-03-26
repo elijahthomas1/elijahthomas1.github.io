@@ -1,30 +1,206 @@
-* {
+body {
+    background-image: linear-gradient(rgb(48, 128, 214),rgb(2, 40, 80));   
+    opacity: 0.9;
     box-sizing: border-box;
-    padding: 0;
-    margin: 10;
-    
+    padding-top: 40px;
 }
 
-body {
-    background-image: linear-gradient(dodgerBlue,slateblue);   
-    
+a {
+    color: antiquewhite;
+    opacity: 0.5;
 }
+
+
+/* header section */
+header {
+    display: flex;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    border-bottom: 3px solid darkblue;
+    background-color: black;
+    align-items: center;
+    opacity: 0.8;
+}
+
+.header-links {
+    float: right;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.header-links-item {
+    padding-left: 15px;
+    color: antiquewhite;
+    opacity: 0.9;
+}
+
+/* intro section */
 
 .intro{
     width: 100%;
-    padding: 100px 0px;
+    height: 600px;
     display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    border-bottom: 3px solid darkblue;
+    padding-bottom: 10px;
+}
+
+.intro-h2 {
+    font-size: 42px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.intro-img {
+    border-radius: 10%;
+}
+
+.intro-h5 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+/* personal data section */
+
+.personal-data {
+    width: 100%;
+    height:  600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 3px solid darkblue;
+}
+
+.pd-title {
+    font-size: 28px;
+    font-weight: bold;
+    padding-top: 10px;
+    text-decoration: underline;
+}
+
+.pd-div {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.pd-info {
+    width: 33%;
+    height: 200px;
+    background-color: black;
+    margin: auto;
+    margin-left: 40px;
+    opacity: 0.9;
+    color: antiquewhite;
+    padding: 15px;
+}
+
+.pd-goal {
+    width: 33%;
+    height: 75px;
+    background-color: black;
+    margin: auto;
+    opacity: 0.9;
+    color: antiquewhite;
+    padding: 25px;
+}
+
+/* academic credentials section */
+
+.academic-cred {
+    width: 100%;
+    height:  600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 3px solid darkblue;
+}
+
+.ac-title {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.ac-subtitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Academic Work Experience Section */
+
+.academic-work {
+    width: 100%;
+    height:  1900px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 3px solid darkblue;
+    color: antiquewhite;
+    opacity: 1;
+}
+
+.aw-title {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.aw-div {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    align-content: space-around;
+    align-items: center;
+}
+
+.aw-div-item {
+    max-width: 33%;
+    margin: auto;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.aw-div-item-p {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: antiquewhite;
+}
+
+.aw-div-item-img {
+    max-width: 33%;
+    opacity: 1;
     
 }
 
-.intro-h2{
-    align-items: center;
-    font-size: 75px;
-    color: linear-gradient(yellow, red);
+.aw_image {
+    max-width: 400px;
+    max-height: 350px;
+    width: 400px;
+    height: 350px;
+    opacity: 1;
 }
-.intro-img{
-    height: auto;
-    width: 500px;
-    margin-left: 30px;
-    align-items: center;
-}
+
+
